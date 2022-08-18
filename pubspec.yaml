@@ -1,0 +1,45 @@
+name: flutter_project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  google_sign_in: ^5.4.0
+  firebase_auth: ^3.6.2
+  firebase_core: ^1.20.0
+  firebase_messaging: 12.0.1
+  flutter_login_facebook: ^1.5.0+1
+  flutter_facebook_auth: ^4.4.0+1
+  auth: ^8.1.0
+  flutter_local_notifications: ^9.7.0
+  shimmer_animation: ^2.1.0+1
+  onboarding: ^3.1.0
+  dropdown_search: ^5.0.2
+  google_maps_flutter: ^2.1.10
+  google_maps_place_picker_mb: ^2.0.0-mb.21
+  emoji_picker_flutter: 1.3.1
+  image_cropper: ^2.0.3
+  image_picker: ^0.8.5+3
+  firebase_storage: 10.3.5
+
+
+
+  flutter: 
+    sdk: flutter
+  video_player: ^2.4.6
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - Images/google .png
+    - Images/indiaflag.webp
+  uses-material-design: true
+
